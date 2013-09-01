@@ -1,0 +1,27 @@
+<!doctype html></doctype>
+<html>
+<head>
+  <title>Rabbi Blog</title>
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
+<body>
+<header class="b-header">
+  <nav class="b-header__menu">
+    <div class="b-header__logo">
+      <span class="b-header__logo__text">Rabbi blog</span>
+    </div>
+    <ul class="b-header__menu-list">
+      <li class="b-header__menu-item"><a class="b-header__menu-link" href="#">Posts</a></li>
+      <li class="b-header__menu-item"><a class="b-header__menu-link" href="#">About</a></li>
+      <li class="b-header__menu-item"><a class="b-header__menu-link" href="#">HowTO</a></li>
+    </ul>
+  </nav>
+</header>
+<div class="b-main">
+  <div class="b-main-content">
+    <%= yield %>
+  </div>
+</div>
+<footer class="b-footer"></footer>
+</body>
+</html>
