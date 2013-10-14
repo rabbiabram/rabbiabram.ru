@@ -2,6 +2,7 @@
 # note the trailing slash in this example
 @dir = "/var/www/"
 
+preload_app true
 worker_processes 2
 working_directory @dir
 
