@@ -1,4 +1,4 @@
-ENV['RACK_ENV'] = 'production'
+ENV['RACK_ENV'] = 'staging'
 require 'newrelic_rpm'
 require 'sinatra/base'
 require 'redis'
