@@ -1,8 +1,11 @@
+ENV['RACK_ENV'] = 'production'
 require 'sinatra/base'
 require 'redis'
 require 'shotgun'
 require 'rubygems'
 require 'lorem-ipsum'
+require 'newrelic_rpm'
+
 
 class MyApp < Sinatra::Base
   not_found do
